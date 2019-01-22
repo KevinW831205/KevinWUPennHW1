@@ -6,21 +6,54 @@
 
 <!DOCTYPE = "html">
 
-<html lang = "en-us">
+<html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <title>Kevin Cheng Fang Wang's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
-    <h1>Kevin Cheng Fang Wang</h1>  
-    <h4>About</h4>
-    <h4>Portfolio</h4> 
-    <h4>Contact</h4>
+
 <header>
-
+    <div class="topBar">
+        <div class="nameBox">
+            <h1>Kevin Cheng Fang Wang</h1>
+        </div>
+        <div class="tabs">
+            <table>
+                <tr>
+                    <td class="leftCell"><a href="index.html">About Me</a> </td>
+                    <td class="centerCell"><a href="portfolio.html">Portfolio</a></td>
+                    <td class="rightCell"><a href="contact.html">Contact</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </header>
-<body>
 
+<body>
+    <div class="mainContentBox">
+        <div class="mainContent">
+            <h2 class="pageTitle">Contact</h2>
+            <hr>
+            <form action="">
+
+                <p>Name</p>
+                <input type="text" placeholder="John Smith" class="inputBox1">
+
+                <p>Email</p>
+                <input type="email" placeholder="example@gmail.com" class="inputBox1">
+
+                <p>Message</p>
+                <input type="text"><br>
+
+                <button type="submit" id="submitButton">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
+
+<footer>
+</footer>
 
 </html>
