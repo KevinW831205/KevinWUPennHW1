@@ -44,6 +44,7 @@ a{
     position: absolute;
     bottom: 30%;
     right:0%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
@@ -83,7 +84,7 @@ body{
     padding: 10px 30px 30px 30px;
     text-align: justify;
     line-height:2;
-    font-style:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .pageTitle{
