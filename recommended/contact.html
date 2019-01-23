@@ -4,7 +4,7 @@
     Date due: 2019/01/26
 -->
 
-<!DOCTYPE = "html">
+<!DOCTYPE html>
 
 <html lang="en-us">
 
@@ -13,30 +13,29 @@
     <title>Kevin Cheng Fang Wang's Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
-
-<header>
-    <div class="topBar">
-        <div class="nameBox">
-            <h1>Kevin Cheng Fang Wang</h1>
-        </div>
-        <div class="tabs">
-            <table>
-                <tr>
-                    <td class="leftCell"><a href="index.html">About Me</a> </td>
-                    <td class="centerCell"><a href="portfolio.html">Portfolio</a></td>
-                    <td class="rightCell"><a href="contact.html">Contact</a></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</header>
-
 <body>
+    <header>
+        <div class="topBar">
+            <div class="nameBox">
+                <h1>Kevin Cheng Fang Wang</h1>
+            </div>
+            <div class="tabs">
+                <table>
+                    <tr>
+                        <td class="leftCell"><a href="index.html">About Me</a> </td>
+                        <td class="centerCell"><a href="portfolio.html">Portfolio</a></td>
+                        <td class="rightCell"><a href="contact.html">Contact</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+
     <div class="mainContentBox">
-        <div class="mainContent">
+        <section class="mainContent">
             <h2 class="pageTitle">Contact</h2>
             <hr>
-            <form action="">
+            <form action="#">
 
                 <p>Name</p>
                 <input type="text" placeholder="John Smith" class="inputBox1">
@@ -45,15 +44,16 @@
                 <input type="email" placeholder="example@gmail.com" class="inputBox1">
 
                 <p>Message</p>
-                <input type="text"><br>
+                <input type="text" class="inputBox2"><br>
 
                 <button type="submit" id="submitButton">Submit</button>
             </form>
-        </div>
+        </section>
+    </div>
+    <div class="footer">
     </div>
 </body>
 
-<footer>
-</footer>
+
 
 </html>
