@@ -113,8 +113,8 @@ height:400px;
 }
 
 .container{
-    height: 288;
-    width: 384;
+    height: 288px;
+    width: 384px;
     margin: 30px;
     position: relative;
     display: inline-block;
@@ -132,7 +132,7 @@ height:400px;
     background-color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     width:100%;
-    padding: 30 0 30 0;
+    padding: 30px 0 30px 0;
     position: absolute;
     bottom: 20px;
     z-index:1;
