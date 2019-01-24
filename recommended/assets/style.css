@@ -54,7 +54,10 @@ header{
     right:0%;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
+}
 
+#noUL{
+    text-decoration: none;
 }
 
 .leftCell{
