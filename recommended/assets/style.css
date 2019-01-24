@@ -1,5 +1,5 @@
 /*
-    UpennLPS HW1 css document
+    UpennLPS HW1 css document for recommended assignment
     Author: Kevin Wang
     Date Due: 2019/01/26
 */
@@ -17,18 +17,14 @@ header{
     z-index: 2;
 }
 
-a{
-    text-decoration: none;
-}
 
 .topBar{
     margin: auto;
     position: relative;
     width: 960px;
     height:120px;
-
-    
 }
+
 .nameBox{
     color: #ffffff;
     background-color: #4aaaa5;
@@ -37,7 +33,19 @@ a{
     position: absolute;
     bottom:0%;
     left:0%;
+}
 
+.navHeader{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin:auto;
+    padding-top:10px;
+    height:100%;
+    position: relative;
+    top:-10px;
+    width:960px;
+  
 }
 
 .tabs{
@@ -45,6 +53,7 @@ a{
     bottom: 30%;
     right:0%;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
 
 }
 
